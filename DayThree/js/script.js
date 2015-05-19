@@ -6,14 +6,19 @@
 
 // initial variable
 var myName = "Lee";
-var newName = "";
-var lastName = "";
+var myAge = 110;
+var myJob  = "\"Full Sail\" University";
+var employed = true;
+
+console.log(myJob);
 
 // prompt for user input
 newName = prompt("Please enter your first name:");
 
+employed = confirm("Are you employed?");
+
 // Create our first conditional
-if (newName === myName) {
+if (employed === true) {
 
     lastName = prompt("Please enter your last name:");
 
@@ -38,17 +43,17 @@ if (newName === myName) {
 
 // new variables for data type tests
 var myNumber = 0;
-var secondNumber = 5;
+var secondNumber = 3.14159265;
 
-myNumber = parseInt(prompt("Enter the number 5."));
+myNumber = parseFloat(prompt("Enter the number 3.14159265."));
 
 if (myNumber === secondNumber) {
 
-    console.log("They match exactly!");
+    console.log("They match exactly!  The number was " + myNumber);
 
 } else {
 
-    console.log("The data types are wrong!");
+    console.log("The number you entered was " + myNumber);
 
 }
 
