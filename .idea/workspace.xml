@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b86d459-7315-4447-99bb-1a03ef987a65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DaySeven/js/script.js" afterPath="$PROJECT_DIR$/DaySeven/js/script.js" />
-    </list>
+    <list default="true" id="1b86d459-7315-4447-99bb-1a03ef987a65" name="Default" comment="" />
     <ignored path="SDI-1505.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +24,7 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DaySeven/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6283186">
+            <state vertical-scroll-proportion="1.0358975">
               <caret line="45" column="20" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -81,9 +79,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
-    <option name="y" value="23" />
+    <option name="y" value="147" />
     <option name="width" value="1280" />
-    <option name="height" value="1001" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -228,7 +226,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1280" height="1001" extended-state="0" />
+    <frame x="1440" y="147" width="1280" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -271,7 +269,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -289,7 +287,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -405,7 +403,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -428,7 +426,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DaySeven/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6283186">
+        <state vertical-scroll-proportion="1.0358975">
           <caret line="45" column="20" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
