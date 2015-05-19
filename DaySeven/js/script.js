@@ -11,11 +11,16 @@
 function authorFunction() {
 
     // local arrays
-
+    var authors = [ "Charles Dickens", "William Shakespeare", "Mark Twain", "Hunter S. Thompson"];
+    var titles  = [ "Oliver Twist", "Hamlet", "Tom Sawyer", "Fear and Loathing in Las Vegas"];
 
     // for loop to go through the array items
     //   output each element
+    for (var i = 0; i < authors.length; i++) {
 
+        console.log(authors[i] + " wrote " + titles[i] + ".");
+
+    }
 
     // use an array method to alter the arrays
 
