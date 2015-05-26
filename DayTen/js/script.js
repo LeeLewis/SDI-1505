@@ -8,21 +8,62 @@
 
 
 // global variables
-var numArray = [3, 6, 7, 9, 23, 42, 22, 50];
-var currentNum = 21;
+var numArray = [3, 6, 7, 9, 23, 42, 22, 50, 34];
+var currentNum = 111;
 var returnedNumber;
 
 // function
+function bubbleSort(argArray) {
+
+    // local variables
+    var num1,
+        num2,
+        holder;
+
+    // loop through the array
+    for (var newElement in argArray) {
+
+        for (var element in argArray) {
+
+            element = parseInt(element);
+
+            // assign array elements to variables
+            num1 = argArray[element];
+            num2 = argArray[element + 1];
+
+            // compare to see which is greater
+            if (num1 > num2) {
+
+                holder = num1;
+                argArray[element] = num2;
+                argArray[element + 1] = num1;
+
+            }
+
+        }
+    }
+
+    return argArray;
+
+}
+
 function findNumber (argArray, argNumber) {
 
     // local variables
-    var nextGreatest = 0;
+    argArray = bubbleSort(argArray);
+    console.log(argArray);
 
     for (var i = 0; i < argArray.length; i++) {
 
-        console.log(argArray[i]);
+        if (argNumber < argArray[i]) {
+
+            return argArray[i];
+
+        }
 
     }
+
+    return "No greater number in the array";
 
 }
 
